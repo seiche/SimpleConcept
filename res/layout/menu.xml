@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical" >
+<LinearLayout
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation = "vertical"
+        android:layout_marginLeft="30dp">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Android Stikers"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textColorHighlight="#CCCCCC"
+        android:textStyle="bold" />
+
+<LinearLayout
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation = "vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp">
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Game" >
+        </Button>
+        <Button
+            android:id="@+id/config_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Controls" >
+        </Button>
+        <Button
+            android:id="@+id/credit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credits" >
+        </Button>
+        
+        </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
